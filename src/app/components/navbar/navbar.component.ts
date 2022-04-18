@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuItem } from '../../models/menu-item';
 
 @Component({
   selector: 'navbar',
@@ -7,12 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   show: boolean;
+  menu: Array<MenuItem> = [];
 
   constructor() {
     this.show = false;
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.menu = [
+      {
+        text: 'skills',
+        url: 'skill'
+      },
+      {
+        text: 'about',
+        url: 'about'
+      },
+      {
+        text: 'contact',
+        url: 'contact'
+      }
+    ];
   }
 
 }

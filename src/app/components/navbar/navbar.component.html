@@ -7,15 +7,9 @@
 
   <div class="collapse navbar-collapse" [class.show]="show">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['skills']" routerLinkActive="active">Skills</a>
-      </li>
 
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['about']" routerLinkActive="active">About</a>
+      <li class="nav-item" *ngFor="let item of menu">
+        <a class="nav-link" [routerLink]="[item.url]" routerLinkActive="active">{{item.text}}</a>
       </li>
 
     </ul>
