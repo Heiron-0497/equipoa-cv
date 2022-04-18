@@ -5,6 +5,7 @@ interface About {
   birthdate: Date;
   birthPlace: Date;
   gender: 'M' | 'F';
+  profileImage?: string; // url
 }
 
 interface Skill {

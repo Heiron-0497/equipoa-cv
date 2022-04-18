@@ -18,7 +18,7 @@ export class NavbarComponent implements OnInit {
     this.menu = [
       {
         text: 'skills',
-        url: 'skill',
+        url: 'skills',
         icon: 'lightning-charge-fill'
       },
       {
