@@ -10,10 +10,16 @@ interface About {
 interface Skill {
 }
 
+interface Social {
+  name: 'facebook' | 'twitter' | 'linkedin' | 'instagram';
+  profileUrl: string;
+}
+
 interface Contact {
   email?: string;
   mobile?: string;
   address?: string;
+  socials?: Array<Social>
 }
 
 interface Certification {
