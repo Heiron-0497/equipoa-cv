@@ -1,2 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/scss/bootstrap";
+
+section {
+  &.about {
+    color: red;
+  }
+
+  &.skills {
+    color: blue;
+  }
+}
