@@ -9,7 +9,7 @@ interface About {
 }
 
 interface Skill {
-  field: string; // to group the skills by field
+  field?: string; // to group the skills by field
   name: string;
   power: number; // between 1 and 100
 }

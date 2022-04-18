@@ -1,0 +1,14 @@
+{
+  "about":{
+    "name": "alex"
+  },
+  "skills": [
+    {
+     "name": "sleep",
+      "power": 100
+    }
+  ],
+  "contact": {
+    "email": "alexnoise79@gmail.com"
+  }
+}
