@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Skill } from '../../models/curriculum';
+import { CurriculumService } from '../../services/curriculum.service';
 
 @Component({
   selector: 'section.skills',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  constructor() { }
+  skills: Array<Skill> = [];
 
-  ngOnInit(): void {
+  constructor(private curriculumService: CurriculumService) {
+  }
+
+  ngOnInit() {
+    this.curriculumService.getCv().subscribe(cv => {
+      this.skills = cv.skills
+    })
   }
 
 }

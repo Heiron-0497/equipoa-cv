@@ -1,4 +1,4 @@
-interface About {
+export interface About {
   name: string;
   surname: string;
   description: string;
@@ -8,32 +8,32 @@ interface About {
   profileImage?: string; // url
 }
 
-interface Skill {
+export interface Skill {
   field?: string; // to group the skills by field
   name: string;
   power: number; // between 1 and 100
 }
 
-interface Social {
+export interface Social {
   name: 'facebook' | 'twitter' | 'linkedin' | 'instagram';
   profileUrl: string;
 }
 
-interface Contact {
+export interface Contact {
   email?: string;
   mobile?: string;
   address?: string;
   socials?: Array<Social>
 }
 
-interface Certification {
+export interface Certification {
   title: string;
   releaseDate: Date;
   expiringDate?: string;
   company: string;
 }
 
-interface Experience {
+export interface Experience {
   startDate: Date;
   endDate?: Date;
   position: string;
@@ -41,7 +41,7 @@ interface Experience {
   address: string;
 }
 
-interface Project {
+export interface Project {
   name: string;
   company: string;
   startDate: Date;
@@ -50,7 +50,7 @@ interface Project {
 
 type LanguageLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 
-interface Language {
+export interface Language {
   name: string;
   level: {
     read: LanguageLevel;
@@ -59,7 +59,7 @@ interface Language {
   }; // assuming 1 to 10
 }
 
-interface Education {
+export interface Education {
   title: string;
   releaseDate: Date;
   expiringDate?: string;
