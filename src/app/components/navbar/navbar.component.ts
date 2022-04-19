@@ -17,17 +17,19 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
     this.menu = [
       {
+        text: 'about',
+        url: 'about',
+        icon: 'postcard-fill'
+      },
+      {
         text: 'skills',
         url: 'skills',
         icon: 'lightning-charge-fill'
       },
       {
-        text: 'about',
-        url: 'about'
-      },
-      {
         text: 'contact',
-        url: 'contact'
+        url: 'contact',
+        icon: 'envelope-fill'
       }
     ];
   }
