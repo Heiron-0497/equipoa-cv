@@ -27,6 +27,11 @@ export class NavbarComponent implements OnInit {
         icon: 'lightning-charge-fill'
       },
       {
+        text: 'Education',
+        url: 'education',
+        
+      },
+      {
         text: 'contact',
         url: 'contact',
         icon: 'envelope-fill'
