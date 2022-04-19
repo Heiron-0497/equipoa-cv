@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { AboutComponent } from './pages/about/about.component';
@@ -12,10 +13,12 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { LanguageComponent } from './pages/language/language.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    HeaderComponent,
     /** PAGES **/
     SkillsComponent,
     AboutComponent,
@@ -23,6 +26,7 @@ import { LanguageComponent } from './pages/language/language.component';
     ContactComponent,
     ExperienceComponent,
     LanguageComponent,
+    
   ],
   imports: [
     BrowserModule,
