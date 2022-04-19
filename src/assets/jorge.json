@@ -13,9 +13,68 @@
             "field": "Ofimatic",
             "name":  "Office pack",
             "power": "55"
+            
+        },
+        {
+            "field": "WEB",
+            "name":  "HTML",
+            "power": "40"
+        },
+        {
+            "field": "WEB",
+            "name":  "CSS",
+            "power": "35"
+        },
+        {
+            "field": "Security",
+            "name":  "Encode",
+            "power": "20"
         }
     ],
-    "social": {
+    "social": [
+         {
+            "name": "Instagram",
+            "profileUrl": "https://www.instagram.com/rderubio_/"
+         },
+         {
+            "name": "facebook",
+            "profileUrl": "https://www.facebook.com/JorgeAloh"
+         }
+    ],
+    "contact": {
+        "email": "jorgesr30@gmail.com",
+        "mobile": "+34 663 334 708",
+        "address": "93 Triq il Wied"
+    },
+    "project": {
+        "name": "Equipoa-cv",
+        "company": "Betstarters",
+        "startDate": "19/04/2022",
+        "endDate": ""
+    },
+    "language": [
+        {
+            "name": "Spanish",
+            "level": [
+                {
+                    "read": "Mother tongue",
+                    "write": "Mother tongue",
+                    "listen": "Mother tongue"
+                }
+            ]
 
-    } 
+        },
+        {
+            "name": "English",
+            "level": [
+                {
+                    "read": "B1",
+                    "write": "B1",
+                    "listen": "B1"
+                }
+            ]
+        }
+
+    ]
+
 }
