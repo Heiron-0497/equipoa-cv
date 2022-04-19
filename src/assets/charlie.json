@@ -10,13 +10,75 @@
     },
     "skills": [
       {
-       "field": "web",
+       "field": "WEB",
        "name": "HTML",
        "power": 50
-      }
+      },
+      {
+        "field": "WEB",
+        "name": "CSS",
+        "power": 40
+       },
+       {
+        "field": "WEB",
+        "name": "JavaScript",
+        "power": 20
+       },
+       {
+        "field": "WEB",
+        "name": "PHP",
+        "power": 5
+       },
+       {
+        "field": "WEB",
+        "name": "Angular",
+        "power": 10
+       },
+       {
+        "field": "WEB",
+        "name": "Typescript",
+        "power": 10
+       },
+       {
+        "field": "DEV",
+        "name": "Python",
+        "power": 30
+       },
+       {
+        "field": "DES",
+        "name": "Photoshop",
+        "power": 30
+       }
     ],
     "contact": {
       "email": "charliearaujo97@gmail.com",
       "address": "93 Triq il Wied"
-    }
+    },
+    "social": [
+      {
+        "name": "facebook",
+        "profileUrl": "https://www.facebook.com/CharlieAraujoDc"
+      },
+      {
+        "name": "twitter",
+        "profileUrl": "https://twitter.com/Chaarlie_Dc"
+      },
+      {
+        "name": "instagram",
+        "profileUrl": "https://www.instagram.com/accounts/login/?next=/aaron_0497/"
+      },
+      {
+        "name": "linkedin",
+        "profileUrl": "https://es.linkedin.com/in/charlie-araujo-alcivar-86a940167?challengeId=AQE6mfhzOSwc_QAAAYBBzJN4cJlcvGGyIxj5xtHA-qejSRNxSDUJsWF7AetyJM_OrvvQCSFwoFcRJrThiPN80YxXbioLKfrLNQ&submissionId=112397c6-034c-e716-2465-c91ab8a79a11"
+      }
+    ],
+    "experience": [
+      {
+        "startDate": "",
+        "endDate": "",
+        "position": "",
+        "company": "",
+        "address": ""
+      }
+    ]
   }
