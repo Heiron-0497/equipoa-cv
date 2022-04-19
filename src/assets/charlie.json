@@ -1,0 +1,20 @@
+{
+    "about":{
+      "name": "Charlie",
+      "surname": "Araujo",
+      "description": "Junior developer learning Angular in Malta with Alex!",
+      "birthdate": "12/04/1997",
+      "birthPlace": "Ecuador",
+      "gender": "M"
+
+    },
+    "skills": [
+      {
+       "field": "web",
+       "power": 100
+      }
+    ],
+    "contact": {
+      "email": "alexnoise79@gmail.com"
+    }
+  }

@@ -19,7 +19,7 @@ export class NavbarComponent implements OnInit {
       {
         text: 'about',
         url: 'about',
-        icon: 'postcard-fill'
+        icon: 'person-fill'
       },
       {
         text: 'skills',

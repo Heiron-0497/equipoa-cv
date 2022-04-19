@@ -3,7 +3,7 @@ export interface About {
   surname: string;
   description: string;
   birthdate: Date;
-  birthPlace: Date;
+  birthPlace: string;
   gender: 'M' | 'F';
   profileImage?: string; // url
 }

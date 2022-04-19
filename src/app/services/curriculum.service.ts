@@ -11,7 +11,7 @@ export class CurriculumService {
   constructor(private http: HttpClient) {
   }
 
-  getCv(name = 'profile'): Observable<Curriculum> {
+  getCv(name = 'charlie'): Observable<Curriculum> {
     return this.http.get<Curriculum>(`assets/${name}.json`);
   }
 }
