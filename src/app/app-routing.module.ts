@@ -4,6 +4,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { EducationComponent } from './pages/education/education.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ExperienceComponent } from './pages/experience/experience.component';
+import { LanguageComponent } from './pages/language/language.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,14 @@ const routes: Routes = [
   {
     path: 'education',
     component: EducationComponent
+  },
+  {
+    path: 'experience',
+    component: ExperienceComponent
+  },
+  {
+    path: 'language',
+    component: LanguageComponent
   },
   {
     path: 'contact',
