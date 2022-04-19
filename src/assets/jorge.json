@@ -8,7 +8,12 @@
         "gender": "M"
         
     },
-    "skills":{
-        
-    }
+    "skills": [
+        {
+            "field": "Ofimatic",
+            "name":  "Office pack",
+            "power": "55"
+        }
+    ],
+    "contact": ""
 }
