@@ -22,7 +22,7 @@ import { LanguageComponent } from './pages/language/language.component';
     EducationComponent,
     ContactComponent,
     ExperienceComponent,
-    LanguageComponent
+    LanguageComponent,
   ],
   imports: [
     BrowserModule,
