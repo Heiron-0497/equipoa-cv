@@ -11,7 +11,8 @@
     "skills": [
       {
        "field": "web",
-       "power": 100
+       "name": "HTML",
+       "power": 50
       }
     ],
     "contact": {
