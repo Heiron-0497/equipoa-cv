@@ -1,0 +1,21 @@
+{
+    "about":{
+        "name": "Jorge",
+        "surname": "Sánchez-Rubio",
+        "description": "Student of Erasmus in Malta, practicing develope",
+        "birthdate": "30/11/2001",
+        "birthplace": "Spain",
+        "gender": "M"
+        
+    },
+    "skills": [
+        {
+            "field": "Ofimatic",
+            "name":  "Office pack",
+            "power": "55"
+        }
+    ],
+    "social": {
+
+    } 
+}

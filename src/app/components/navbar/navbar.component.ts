@@ -17,12 +17,12 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
     this.menu = [
       {
-        text: 'about',
+        text: 'About',
         url: 'about',
         icon: 'person-fill'
       },
       {
-        text: 'skills',
+        text: 'Skills',
         url: 'skills',
         icon: 'lightning-charge-fill'
       },
@@ -42,10 +42,15 @@ export class NavbarComponent implements OnInit {
         icon: 'translate'
       },
       {
-        text: 'contact',
+        text: 'Contact',
         url: 'contact',
         icon: 'inboxes-fill'
-      }
+      },
+      {
+        text: 'Social',
+        url: 'social',
+        icon: "bi bi-file-person-fill"
+      },
     ];
   }
 
