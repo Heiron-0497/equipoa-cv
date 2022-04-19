@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { AboutComponent } from './pages/about/about.component';
 import { EducationComponent } from './pages/education/education.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EducationComponent } from './pages/education/education.component';
     /** PAGES **/
     SkillsComponent,
     AboutComponent,
-    EducationComponent
+    EducationComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

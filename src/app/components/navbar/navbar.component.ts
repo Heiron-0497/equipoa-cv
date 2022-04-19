@@ -29,7 +29,7 @@ export class NavbarComponent implements OnInit {
       {
         text: 'Education',
         url: 'education',
-        
+        icon: 'book-fill'
       },
       {
         text: 'contact',
