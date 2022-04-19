@@ -44,7 +44,7 @@ export class NavbarComponent implements OnInit {
       {
         text: 'contact',
         url: 'contact',
-        icon: 'envelope-fill'
+        icon: 'inboxes-fill'
       }
     ];
   }
