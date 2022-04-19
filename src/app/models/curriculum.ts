@@ -48,7 +48,7 @@ export interface Project {
   endDate?: Date;
 }
 
-type LanguageLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+type LanguageLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2' | 'Mother Tongue';
 
 export interface Language {
   name: string;
@@ -56,7 +56,7 @@ export interface Language {
     read: LanguageLevel;
     write: LanguageLevel;
     listen: LanguageLevel;
-  }; // assuming 1 to 10
+  };
 }
 
 export interface Education {
