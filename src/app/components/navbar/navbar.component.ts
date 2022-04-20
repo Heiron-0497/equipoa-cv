@@ -46,11 +46,6 @@ export class NavbarComponent implements OnInit {
         url: 'contact',
         icon: 'inboxes-fill'
       },
-      {
-        text: 'Social',
-        url: 'social',
-        icon: "bi bi-file-person-fill"
-      },
     ];
   }
 
